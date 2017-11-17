@@ -1,7 +1,6 @@
 ## Dog Walking Project with Swifto
 
-<img src="pulpitrock.jpg" alt="Mountain View">
-
+<img src="1.png" width="400" height="200">
 
 ### What is Swifto ?
 
@@ -26,25 +25,31 @@ We did quantitative research along with qualitative user interviews.
 
 ### Quantitative research - Twitter's API
 
+#### Scriping through twitter
 
 
-```markdown
-# Use Twitter's API to do consumer research
+- How many twitts about Dogwalking in New York City last two years ?
+
+- How people feel about Dogwalking ?
+
+- What is the top ten popular words people say about dog walking ?
+
+**Sample code for web craping**
+
+```
+#### Use Twitter's API to do consumer research
+
 api = tweepy.API(auth)
 public_tweets = api.search('DogWalking' and 'NYC ')
 
-# Loop thru to get maximum results
+#### Loop thru to get maximum results
+
 for tweet in public_tweets:
     print(tweet.text)
     analysis = TextBlob(tweet.text)
     print(analysis.sentiment)
 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
