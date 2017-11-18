@@ -17,6 +17,9 @@ Swifto is a NYC based dog walking company who has 60 active walkers and hundreds
 -  Weak relationship bond between customers. 
 
 
+### Project Budget and Time Frame
+
+- 
 
 
 
